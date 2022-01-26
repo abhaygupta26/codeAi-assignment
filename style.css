@@ -1,0 +1,101 @@
+.main_div {
+  border: 1px solid #e5e2db;
+  width: 25%;
+  height: 46rem;
+  border-radius: 4%;
+  background: linear-gradient(180deg, #ec7c0c 40%, white 40%);
+}
+.intro {
+  color: white;
+}
+
+.content {
+  border: 1px solid #dfddd9;
+  height: 31rem;
+  position: relative;
+  border-radius: 4%;
+  background-color: white;
+}
+
+.robo_div {
+  width: 20%;
+  border-radius: 50%;
+  position: relative;
+  left: 8%;
+  bottom: 8%;
+  background-color: #ec7c0c;
+}
+
+.robo_icon {
+  font-size: 40px;
+  width: 100%;
+  border-radius: 50%;
+  height: 5rem;
+  text-align: center;
+  color: white;
+  line-height: 60px;
+}
+
+.fa-question {
+  color: #ec7c0c;
+}
+
+.btn-content {
+  color: black;
+  text-align: left;
+  width: 85%;
+  height: 3rem;
+  border-color: #dfddd9;
+  margin-left: 50rem;
+}
+
+.fa-circle {
+  font-size: 8px;
+  color: #ec7c0c;
+}
+
+.button_div {
+  text-align: center;
+}
+
+.button {
+  color: black;
+  text-align: left;
+  width: 70%;
+  height: 3rem;
+  border-radius: 50px;
+  text-align: center;
+  border-color: #dfddd9;
+}
+
+/******************************************************* MEDIA QUERIES ************************************************/
+
+@media only screen and (max-width: 375px) {
+  .main_div {
+    width: 95%;
+  }
+  .btn-content {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .main_div {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .main_div {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .main_div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .main_div {
+    width: 30%;
+  }
+}
