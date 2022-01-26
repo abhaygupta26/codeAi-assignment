@@ -34,7 +34,7 @@
   height: 5rem;
   text-align: center;
   color: white;
-  line-height: 60px;
+  line-height: 70px;
 }
 
 .fa-question {
@@ -92,6 +92,9 @@
   .button {
     font-size: 13px;
   }
+  .robo_icon {
+    line-height: 70px;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .main_div {
@@ -110,6 +113,9 @@
   }
   .button {
     font-size: 20px;
+  }
+  .robo_icon {
+    line-height: 70px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1450px) {
@@ -135,5 +141,8 @@
     font-size: 20px;
     margin-bottom: 50rem;
     padding-bottom: 3rem;
+  }
+  .robo_icon {
+    line-height: 70px;
   }
 }
